@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    background: rgb(31, 31, 31);
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+}
+
+@media screen and (max-width:720px) {
+    .skillBarText>p{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .skillBarText>p{
+        font-size: 3vw;
+    }
+    .skillBarImg{
+        height: 2.25rem;
+        width: 2.25rem;
+
+    }
+    .skillBarText>h2{
+        font-size: 5vw;
+        
+    }
+}
